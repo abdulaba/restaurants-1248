@@ -1,0 +1,8 @@
+<div class="container">
+  <%= simple_form_for [@restaurant, @dish] do |f| %>
+    <%= f.input :name %>
+    <%= f.input :detail %>
+    <%= f.input :price %>
+    <%= f.submit %>
+  <% end %>
+</div>
